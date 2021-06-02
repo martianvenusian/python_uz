@@ -25,8 +25,7 @@ func()
 ```
 misol 2:
 ```
-word = "Bu shunchaki oddiy funksiya"
-func(word)
+func("Bu shunchaki oddiy funksiya")
 >>> Bu shunchaki oddiy funksiya
 ```
 
