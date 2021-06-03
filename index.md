@@ -30,7 +30,7 @@ word = "Bu shunchaki oddiy funksiya."
 func(word)
 >>> Bu shunchaki oddiy funksiya.
 ```
-Funksiya qavslari orasidagi *word* o'zgaruvchisi orqali qiymat qabul qilda va shu qiymatni o'z tanasida qayta ishlab *\'Bu shunchaki oddiy funksiya.\'* deb chop qildi. *\'word\'* o'zgaruvchisiga biror bir qiymatni berish orqali istagan so'zni funksiyaga uzatishimiz va shu so'zni fuksiya yordamida chop qilishimiz mumkin.
+Funksiya qavslari orasidagi *word* o'zgaruvchisi orqali qiymat qabul qilda va shu qiymatni o'z tanasida qayta ishlab *\'Bu shunchaki oddiy funksiya.\'* deb chop qildi. *\'word\'* o'zgaruvchisiga biror bir qiymatni berish orqali istagan boshqa so'zni funksiyaga uzatishimiz va shu so'zni fuksiya yordamida chop qilishimiz mumkin.
 ```python
 word = "Bu endi shunchaki oddiy funksiya emas."
 func(word)
