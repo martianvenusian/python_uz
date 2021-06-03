@@ -30,7 +30,7 @@ word = "Bu shunchaki oddiy funksiya"
 func(word)
 >>> Bu shunchaki oddiy funksiya
 ```
-Funksiyan qavslari orasidagi *word* o'zgaruvchisi orqali qiymat qabul qilda va shu qiymatni o'z tanasida qayta ishlab *Bu shunchaki oddiy funksiya* deb chop qildi.
+Funksiyan qavslari orasidagi *word* o'zgaruvchisi orqali qiymat qabul qilda va shu qiymatni o'z tanasida qayta ishlab *\'Bu shunchaki oddiy funksiya\'* deb chop qildi.
 
 
 <!-- ## Kitoblar tarjimasi
