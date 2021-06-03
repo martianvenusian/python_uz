@@ -1,34 +1,37 @@
 ## Funksiyalar
-Funksiya bu ma'lum bir vazifani bajaruvchi va o'z nomiga ega bo'lgan maxsus blokka olingan kodga aytiladi. Funksiya yordamida dasturda tez-tez takrorlanuvchi bir xil fazifani bajaruvchi kodlarni qayta-qayta yozishning oldini olish mumkin. Yani biror vazifani bajaruvchi kod yozishga to'g'ri kelganda shu vazifani bajaruvchi funksiyani chaqirish kifoya. Buning uchun dasturning biror qismida funksiya yaratiladi va shu funksiyaga ihtiyoj tug'ilganda uni chaqirib bajarilishi kerak bo'lgan vazifa unga yuklanadi.
+Funksiya bu ma'lum bir vazifani bajaruvchi va o'z nomiga ega bo'lgan maxsus blokka olingan kodga aytiladi. Funksiya yordamida dasturda tez-tez takrorlanuvchi bir xil vazifani bajaruvchi kodlarni qayta-qayta yozishning oldini olish mumkin. Yani biror vazifani bajaruvchi kod yozishga to'g'ri kelganda shu vazifani bajaruvchi funksiyani chaqirish kifoya. Buning uchun dasturning biror qismida funksiya yaratiladi va shu funksiyaga ihtiyoj tug'ilganda uni chaqirib bajarilishi kerak bo'lgan vazifa unga yuklanadi.
 
 #### Funksiyani yaratish
-misol 1:
+Python dasturlash tilida funksiya `def` maxsus so'zi yordamida ifodalanadi. *def* maxsus so'zi funksiya yaratilayotganini ifodalaydi va *def* dan so'ng `funksiyaning nomi` beriladi. Funksiyaning nomidan so'ng `()`(qavs) ochib yopiladi va `:`(ikki nuqta) qo'yish orqali funksiyani ifodalash yakunlanadi. Ikki nuqtadan keyingi kodning blok qismi funksiyaning `tana`si hisoblanadi va qachonki funksiyaga murojat qilinganda funksiya tanasi ishga tushadi.
 ```python
-def func():
-    """Bu funksiya shunchaki matnni chop qiladi"""
+def func():    
     word = "Bu shunchaki oddiy funksiya"
     print(word)
 ```
 
-misol 2:
+Funksiya yaratilish davomida qavslar bo'sh bolishi mumkin (yuqoridagi misol kabi), yoki funksiyaning qavslari o'z ichiga biror bilan ma'lumotni ham olishi mumkin (quyidagi misol kabi). Bu haqida qiyingi qismlarda toliqroq ma'lumot beriladi.
 ```python
-def func(word):
-    """Bu funksiya shunchaki matnni chop qiladi"""    
+def func(word):    
     print(word)
 ```
 
-#### Funksiyani chaqirish
-misol 1:
+#### Funksiyanga murojaat qilish
+
+Yaratilgan funksiyaga muroajaat shu funksiyaning nomi va ikki vaqsni yozish orqali amalga oshiriladi.
 ```python
 func()
 >>> Bu shunchaki oddiy funksiya
 ```
-misol 2:
-```
-func("Bu shunchaki oddiy funksiya")
+Yuqoridagi kabi funksiyani chaqirdik va chaqirilgan funksiya o'z tanasini ishga tushirish orqali *Bu shunchaki oddiy funksiya* degan gapni chop etdi.
+
+
+Qavslar orasida ma'lumot qabul qiluvchi funksiyaga esa quydagicha murojaat qilinadi.
+```python
+word = "Bu shunchaki oddiy funksiya"
+func(word)
 >>> Bu shunchaki oddiy funksiya
 ```
-
+Funksiyan qavslari orasidagi *word* o'zgaruvchisi orqali qiymat qabul qilda va shu qiymatni o'z tanasida qayta ishlab *Bu shunchaki oddiy funksiya* deb chop qildi.
 
 
 <!-- ## Kitoblar tarjimasi
