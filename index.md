@@ -5,7 +5,7 @@ Funksiya bu ma'lum bir vazifani bajaruvchi va o'z nomiga ega bo'lgan maxsus blok
 Python dasturlash tilida funksiya `def` maxsus so'zi yordamida ifodalanadi. *def* maxsus so'zi funksiya yaratilayotganligini ifodalaydi va *def* dan so'ng `funksiyaning nomi` beriladi. Funksiyaning nomidan so'ng `()`(qavs) ochib yopiladi va `:`(ikki nuqta) qo'yish orqali funksiyani ifodalash yakunlanadi. Ikki nuqtadan keyingi kodning blok qismi funksiyaning `tana`si hisoblanadi va qachonki funksiyaga murojat qilinganda funksiya tanasi ishga tushadi. Funksiya yaratilish davomida qavslar bo'sh bolishi mumkin (quyidagi 1-misol kabi), yoki funksiyaning qavslari o'z ichiga biror bilan ma'lumotni ham olishi mumkin (quyidagi 2-misol kabi). Bu haqida qiyingi qismlarda to'liqroq ma'lumot beriladi.
 ```python
 def func():    
-    word = "Bu shunchaki oddiy funksiya"
+    word = "Bu shunchaki oddiy funksiya."
     print(word)
 ```
 
@@ -21,20 +21,20 @@ Yaratilgan funksiyaga muroajaat shu funksiyaning nomi va qavslarni yozish orqali
 func()
 >>> Bu shunchaki oddiy funksiya
 ```
-Yuqorida funksiyani chaqirdik va chaqirilgan funksiya o'z tanasini ishga tushirish orqali *\'Bu shunchaki oddiy funksiya\'* degan gapni chop etdi.
+Yuqorida funksiyani chaqirdik va chaqirilgan funksiya o'z tanasini ishga tushirish orqali *\'Bu shunchaki oddiy funksiya.\'* degan gapni chop etdi.
 
 
 Qavslar orasida ma'lumot qabul qiluvchi funksiyaga esa quydagicha murojaat qilinadi.
 ```python
-word = "Bu shunchaki oddiy funksiya"
+word = "Bu shunchaki oddiy funksiya."
 func(word)
->>> Bu shunchaki oddiy funksiya
+>>> Bu shunchaki oddiy funksiya.
 ```
-Funksiya qavslari orasidagi *word* o'zgaruvchisi orqali qiymat qabul qilda va shu qiymatni o'z tanasida qayta ishlab *\'Bu shunchaki oddiy funksiya\'* deb chop qildi. *\'word\'* o'zgaruvchisiga biror bir qiymatni berish orqali istagan so'zni funksiyaga uzatishimiz va shu so'zni fuksiya yordamida chop qilishimiz mumkin.
+Funksiya qavslari orasidagi *word* o'zgaruvchisi orqali qiymat qabul qilda va shu qiymatni o'z tanasida qayta ishlab *\'Bu shunchaki oddiy funksiya.\'* deb chop qildi. *\'word\'* o'zgaruvchisiga biror bir qiymatni berish orqali istagan so'zni funksiyaga uzatishimiz va shu so'zni fuksiya yordamida chop qilishimiz mumkin.
 ```python
-word = "Bu endi shunchaki oddiy funksiya emas"
+word = "Bu endi shunchaki oddiy funksiya emas."
 func(word)
->>> Bu endi shunchaki oddiy funksiya emas
+>>> Bu endi shunchaki oddiy funksiya emas.
 ```
 
 <!-- ## Kitoblar tarjimasi
