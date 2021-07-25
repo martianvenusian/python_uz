@@ -26,7 +26,7 @@ print(condition)
 
 ## Shart ifodalari
 
-### Tenglik sharti
+#### Tenglik sharti
 
 ```python
 name = 'akrom'
@@ -176,7 +176,7 @@ print(age == 28 or name.title() == 'Akbar')
 # False
 ```
 
-#### shartlarni qavslar bilan yozish
+#### Shartlarni qavslar bilan yozish
 
 ```python
 age = 27
