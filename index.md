@@ -1,4 +1,4 @@
-## Boolean ifodalari
+## Boolean ifodalar
 
 `True` va `False` (rost va yolg'on) ifodalari
 
@@ -24,9 +24,9 @@ print(condition)
 # False
 ```
 
-## Shartli ifodalar
+## Shart ifodalari
 
-#### Tenglik sharti
+### Tenglik sharti
 
 ```python
 name = 'akrom'
@@ -203,6 +203,7 @@ print(condition)
 # False
 ```
 
+<!--
 ## if shart amali
 
 Dasturlashda holarni biror bir shart asosida tekshirish va shu tekshiruv asosida keyingi qaysi amallarni bajarishni belgilab olish odatiy holatdir. Python dasturlash tilida bu amal `if` shart amali yordamida amalga oshiriladi.
@@ -220,9 +221,9 @@ else:
     print('She is a', boy_or_girl)
 ```
 
-<!--
 #### misol 2
-
+-->
+<!--
 ## Funksiyalar
 
 Funksiya bu ma'lum bir vazifani bajaruvchi va o'z nomiga ega bo'lgan maxsus blokka olingan kodga aytiladi. Funksiya yordamida dasturda tez-tez takrorlanuvchi bir xil vazifani bajaruvchi kodlarni qayta-qayta yozishning oldini olish mumkin. Yani biror vazifani bajaruvchi kod yozishga to'g'ri kelganda shu vazifani bajaruvchi funksiyani chaqirish kifoya. Buning uchun dasturning biror qismida funksiya yaratiladi va shu funksiyaga ihtiyoj tug'ilganda uni chaqirib bajarilishi kerak bo'lgan vazifa unga yuklanadi.
