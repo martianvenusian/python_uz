@@ -137,16 +137,16 @@ print(age >= 21)
 ```python
 age = 27
 name = 'akrom'
-
-print(age == 27 and name.title() == 'Akrom')
+condition = age == 27 and name.title() == 'Akrom'
+print(condition)
 # True
 ```
 
 ```python
 age = 27
 name = 'akrom'
-
-print(age == 27 and name == 'Akrom')
+condition = age == 27 and name == 'Akrom'
+print(condition)
 # False
 ```
 
@@ -155,24 +155,24 @@ print(age == 27 and name == 'Akrom')
 ```python
 age = 27
 name = 'akrom'
-
-print(age == 27 or name.title() == 'Akrom')
+condition = age == 27 or name.title() == 'Akrom'
+print(condition)
 # True
 ```
 
 ```python
 age = 27
 name = 'akrom'
-
-print(age == 27 or name.title() == 'Akbar')
+condition = age == 27 or name.title() == 'Akbar'
+print(condition)
 # True
 ```
 
 ```python
 age = 27
 name = 'akrom'
-
-print(age == 28 or name.title() == 'Akbar')
+condition = age == 28 or name.title() == 'Akbar'
+print(condition)
 # False
 ```
 
@@ -181,7 +181,6 @@ print(age == 28 or name.title() == 'Akbar')
 ```python
 age = 27
 name = 'akrom'
-
 condition = (age == 27 and name.title() == 'Akrom') or (age == 19 and name.title() == 'Akbar')
 print(condition)
 # True
