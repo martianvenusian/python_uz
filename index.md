@@ -92,19 +92,27 @@ print(age > 21)
 # False
 ```
 
-#### Katta va teng, kichik va teng shartlari
+#### Katta va teng shartlari
 
 ```python
 age = 19
-print(age <=21)
-# True
+print(age >=21)
+# False
 ```
 
 ```python
 age = 21
-print(age <= 21)
+print(age >= 21)
 # True
 ```
+
+```python
+age = 22
+print(age >= 21)
+# True
+```
+
+#### Kichik va teng shartlari
 
 ```python
 age = 22
@@ -113,21 +121,15 @@ print(age <= 21)
 ```
 
 ```python
-age = 22
-print(age >= 21)
-# True
-```
-
-```python
 age = 21
-print(age >= 21)
+print(age <= 21)
 # True
 ```
 
 ```python
 age = 20
 print(age >= 21)
-# False
+# True
 ```
 
 #### `and` shart yordamchi so'zi
