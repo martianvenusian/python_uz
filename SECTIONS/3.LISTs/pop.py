@@ -15,3 +15,12 @@ print(names)
 deleted_name = names.pop(1)
 print(names)
 ['akrom', 'akbar', 'humoyiddin']
+print(deleted_name)
+# dilmurod
+
+
+deleted_name = names.pop(0)
+print(names)
+['akbar', 'humoyiddin']
+print(deleted_name)
+# akrom
