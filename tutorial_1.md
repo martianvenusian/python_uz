@@ -1,6 +1,6 @@
 # List
 
-### Listge `.appent()` metodi yordamida element qo'shish
+### `.appent()` metodi yordamida listga element qo'shish
 
 Agar siz listga element qo'shmoqchi bo'lsangiz **.appent()** metodidan foydalanishingiz mumkin. Bu metod listning oxiridan boshlab element qo'shadi.
 
@@ -18,7 +18,7 @@ print(names)
 # ['akrom', 'akbar', 'humoyiddin']
 ```
 
-### Listga `.insert()` metodi yordamida element kiritish
+### `.insert()` metodi yordamida listga element kiritish
 
 Agar siz listga biror bir element kiritmoqchi bo'lsangiz **.insert()** metodidan foydalaning. Bu metod listning istalgan qismiga yangi element qo'shadi. Faqat bunda kiritilayotgan yangi elementning o'rnini ko'rsatish lozim.
 
