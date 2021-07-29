@@ -1,8 +1,8 @@
 ## List
 
-#### Listga oxiriga element qo'shish
+#### Listge `.appent()` metodi yordamida element qo'shish
 
-Agar siz listga element qo'shmoqchi bo'lsangiz `.appent()` metodidan foydalanishingiz mumkin. Bu metod listning oxiridan boshlab listga element qo'shadi.
+Agar siz listga element qo'shmoqchi bo'lsangiz **.appent()** metodidan foydalanishingiz mumkin. Bu metod listning oxiridan boshlab element qo'shadi.
 
 ```python
 names = ['akrom']
@@ -18,9 +18,9 @@ print(names)
 # ['akrom', 'akbar', 'humoyiddin']
 ```
 
-#### Listga element kiritish
+#### Listga `.insert()` metodi yordamida element kiritish
 
-Agar siz listga biror bir element kiritmoqchi bo'lsangiz `.insert()` metodidan foydalaning. Bu metod listning istalgan qismiga yangi element qo'shadi. Faqat bunda kiritilayotgan yangi elementning o'rnini ko'rsatish lozim.
+Agar siz listga biror bir element kiritmoqchi bo'lsangiz **.insert()** metodidan foydalaning. Bu metod listning istalgan qismiga yangi element qo'shadi. Faqat bunda kiritilayotgan yangi elementning o'rnini ko'rsatish lozim.
 
 ```python
 names = ['akrom', 'akbar', 'humoyiddin']
@@ -36,9 +36,9 @@ print(names)
 # ['akrom', 'dilmurod', 'akbar', 'elmurod', 'humoyiddin']
 ```
 
-#### `del` ifodasi yordamida listdan elementni o'chirib tashlash
+#### `del` ifodasi yordamida listdan elementni o'chirish
 
-Agar o'chirmoqchi bo'layotgan elementingizning joylashgan o'rnini bilsangiz `del` ifodasi yordamida bu ishni amalga oshirishingiz mumkin
+Agar o'chirmoqchi bo'layotgan elementingizning joylashgan o'rnini bilsangiz **del** ifodasi yordamida bu elementni o'chirib tashlashingiz mumkin
 
 ```python
 names = ['akrom', 'dilmurod', 'akbar', 'humoyiddin']
@@ -54,9 +54,9 @@ print(names)
 # ['dilmurod', 'humoyiddin']
 ```
 
-#### `.pop()` metodi yordamida listdan elementni o'chirib tashlash
+#### `.pop()` metodi yordamida listdan elementni o'chirish
 
-Siz listdan elementni o'chirib tashlamoqchisiz lekin o'chirilgan elementni biror bir o'zgaruvchiga o'zlashtirib olmoqchi bo'lsangiz `.pop()` metodidan foydalanishizgiz mumkin. Bu metod listning oxirgi elementini o'chiradi va o'chirilgan elementning qiymatini qaytaradi.
+Siz listdan elementni o'chirib tashlamoqchisiz lekin o'chirilgan elementni biror bir o'zgaruvchiga o'zlashtirib olmoqchi bo'lsangiz **.pop()** metodidan foydalanishizgiz mumkin. Bu metod listning oxirgi elementini o'chiradi va o'chirilgan elementning qiymatini qaytaradi.
 
 ```python
 names = ['akrom', 'dilmurod', 'akbar', 'humoyiddin']
@@ -66,9 +66,11 @@ print(names)
 deleted_name = names.pop()
 print(names)
 # ['akrom', 'dilmurod', 'akbar']
+print(deleted_name)
+# akbar
 ```
 
-Agar listning faqat oxirgi elementini emas balki istalgan biror bir elementini o'chirmqochi bo'lsangiz unda .pop() metodiga o'chirmoqchi bo'layotgan elementning o'rnini ko'rsatish kerak bo'ladi.
+Agar listning faqat oxirgi elementini emas balki istalgan biror bir elementini o'chirmoqchi bo'lsangiz unda **.pop()** metodiga o'chirmoqchi bo'layotgan elementning o'rnini ko'rsatish kerak bo'ladi.
 
 ```python
 names = ['akrom', 'dilmurod', 'akbar', 'humoyiddin']
@@ -88,9 +90,9 @@ print(deleted_name)
 # akrom
 ```
 
-#### `.remove()` metodi yordamida listdan elementni o'chirib tashlash
+#### `.remove()` metodi yordamida listdan elementni o'chirish
 
-Agar siz elementning joylashgan o'rnini bilmasangiz unda elementning qiymati yordamida listdan elementning o'chirishingiz mumkin. Buning uchun `.remove()` metodidan foydalaning.
+Agar siz elementning joylashgan o'rnini bilmasangiz unda elementning qiymati yordamida listdan elementni o'chirishingiz mumkin. Buning uchun **.remove()** metodidan foydalaning.
 
 ```python
 names = ['akrom', 'dilmurod', 'akbar', 'humoyiddin']
@@ -106,9 +108,9 @@ print(names)
 # ['dilmurod', 'humoyiddin']
 ```
 
-## Boolean ifodalar
+## Boolean turlar
 
-`True` va `False` (rost va yolg'on) ifodalari
+`True` va `False` (rost va yolg'on) turlar
 
 ```python
 print(True)
@@ -130,6 +132,15 @@ print(condition)
 condition = False
 print(condition)
 # False
+```
+
+Booleanning turini tekshirib ko'ramiz
+
+```python
+condition = True
+condition_type = type(condition)
+print(condition_type)
+# <class 'bool'>
 ```
 
 ## Shart ifodalari
@@ -186,21 +197,33 @@ print(age != 72)
 # True
 ```
 
-#### Katta yoki kichik shartlari
-
-```python
-age = 19
-print(age < 21)
-# True
-```
-
+#### Kattalik sharti
 ```python
 age = 19
 print(age > 21)
 # False
 ```
 
-#### Katta va teng shartlari
+```python
+age = 22
+print(age > 21)
+# True
+```
+
+#### Kichiklik sharti
+
+```python
+age = 19
+print(age < 21)
+# True
+```
+```python
+age = 22
+print(age < 21)
+# False
+```
+
+#### Katta va tenglik sharti
 
 ```python
 age = 19
@@ -220,7 +243,7 @@ print(age >= 21)
 # True
 ```
 
-#### Kichik va teng shartlari
+#### Kichik va tenglik sharti
 
 ```python
 age = 22
@@ -236,11 +259,43 @@ print(age <= 21)
 
 ```python
 age = 20
-print(age >= 21)
+print(age <= 21)
 # True
 ```
 
 #### `and` shart yordamchi so'zi
+
+```python
+condition1 = True
+condition2 = True
+
+print(condition1 and condition2)
+# True
+```
+
+```python
+condition1 = True
+condition2 = False
+
+print(condition1 and condition2)
+# False
+```
+
+```python
+condition1 = False
+condition2 = True
+
+print(condition1 and condition2)
+# False
+```
+
+```python
+condition1 = False
+condition2 = False
+
+print(condition1 and condition2)
+# False
+```
 
 ```python
 age = 27
@@ -259,6 +314,38 @@ print(age == 27 and name == 'Akrom')
 ```
 
 #### `or` shart yordamchi so'zi
+
+```python
+condition1 = True
+condition2 = True
+
+print(condition1 or condition2)
+# True
+```
+
+```python
+condition1 = True
+condition2 = False
+
+print(condition1 or condition2)
+# True
+```
+
+```python
+condition1 = False
+condition2 = True
+
+print(condition1 or condition2)
+# True
+```
+
+```python
+condition1 = False
+condition2 = False
+
+print(condition1 or condition2)
+# False
+```
 
 ```python
 age = 27
@@ -288,8 +375,21 @@ print(age == 28 or name.title() == 'Akbar')
 
 ```python
 age = 27
-name = 'akrom'
+condition = (age == 27) or (age == 19)
+print(condition)
+# True
+```
 
+```python
+name = 'akrom'
+condition = (name.title() == 'Akrom') and (name.title() == 'Akbar')
+print(condition)
+# False
+```
+
+```python
+age = 27
+name = 'akrom'
 condition = (age == 27 and name.title() == 'Akrom') or (age == 19 and name.title() == 'Akbar')
 print(condition)
 # True
