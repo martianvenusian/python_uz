@@ -1,6 +1,6 @@
-### #1: [List](./tutorial_1.html)
-### #2: [Boolean](./tutorial_2.html)
-### #3: [Shart ifodalari](./tutorial_3.html)
+### `#1:` [List](./tutorial_1.html)
+### `#2:` [Boolean](./tutorial_2.html)
+### `#3:` [Shart ifodalari](./tutorial_3.html)
 
 
 
