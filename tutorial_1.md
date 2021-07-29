@@ -1,6 +1,6 @@
-## List
+# List
 
-#### Listge `.appent()` metodi yordamida element qo'shish
+### Listge `.appent()` metodi yordamida element qo'shish
 
 Agar siz listga element qo'shmoqchi bo'lsangiz **.appent()** metodidan foydalanishingiz mumkin. Bu metod listning oxiridan boshlab element qo'shadi.
 
@@ -18,7 +18,7 @@ print(names)
 # ['akrom', 'akbar', 'humoyiddin']
 ```
 
-#### Listga `.insert()` metodi yordamida element kiritish
+### Listga `.insert()` metodi yordamida element kiritish
 
 Agar siz listga biror bir element kiritmoqchi bo'lsangiz **.insert()** metodidan foydalaning. Bu metod listning istalgan qismiga yangi element qo'shadi. Faqat bunda kiritilayotgan yangi elementning o'rnini ko'rsatish lozim.
 
@@ -36,7 +36,7 @@ print(names)
 # ['akrom', 'dilmurod', 'akbar', 'elmurod', 'humoyiddin']
 ```
 
-#### `del` ifodasi yordamida listdan elementni o'chirish
+### `del` ifodasi yordamida listdan elementni o'chirish
 
 Agar o'chirmoqchi bo'layotgan elementingizning joylashgan o'rnini bilsangiz **del** ifodasi yordamida bu elementni o'chirib tashlashingiz mumkin
 
@@ -54,7 +54,7 @@ print(names)
 # ['dilmurod', 'humoyiddin']
 ```
 
-#### `.pop()` metodi yordamida listdan elementni o'chirish
+### `.pop()` metodi yordamida listdan elementni o'chirish
 
 Siz listdan elementni o'chirib tashlamoqchisiz lekin o'chirilgan elementni biror bir o'zgaruvchiga o'zlashtirib olmoqchi bo'lsangiz **.pop()** metodidan foydalanishizgiz mumkin. Bu metod listning oxirgi elementini o'chiradi va o'chirilgan elementning qiymatini qaytaradi.
 
@@ -90,7 +90,7 @@ print(deleted_name)
 # akrom
 ```
 
-#### `.remove()` metodi yordamida listdan elementni o'chirish
+### `.remove()` metodi yordamida listdan elementni o'chirish
 
 Agar siz elementning joylashgan o'rnini bilmasangiz unda elementning qiymati yordamida listdan elementni o'chirishingiz mumkin. Buning uchun **.remove()** metodidan foydalaning.
 

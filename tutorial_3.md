@@ -1,6 +1,6 @@
-## Shart ifodalari
+# Shart ifodalari
 
-#### Tenglik sharti
+### Tenglik sharti
 
 ```python
 name = 'akrom'
@@ -26,7 +26,7 @@ print(age == 72)
 # False
 ```
 
-#### Teng emaslik sharti
+### Teng emaslik sharti
 
 ```python
 name = 'akrom'
@@ -52,7 +52,7 @@ print(age != 72)
 # True
 ```
 
-#### Kattalik sharti
+### Kattalik sharti
 ```python
 age = 19
 print(age > 21)
@@ -65,7 +65,7 @@ print(age > 21)
 # True
 ```
 
-#### Kichiklik sharti
+### Kichiklik sharti
 
 ```python
 age = 19
@@ -78,7 +78,7 @@ print(age < 21)
 # False
 ```
 
-#### Katta va tenglik sharti
+### Katta va tenglik sharti
 
 ```python
 age = 19
@@ -98,7 +98,7 @@ print(age >= 21)
 # True
 ```
 
-#### Kichik va tenglik sharti
+### Kichik va tenglik sharti
 
 ```python
 age = 22
@@ -118,7 +118,7 @@ print(age <= 21)
 # True
 ```
 
-#### `and` shart yordamchi so'zi
+### `and` shart yordamchi so'zi
 
 ```python
 condition1 = True
@@ -168,7 +168,7 @@ print(age == 27 and name == 'Akrom')
 # False
 ```
 
-#### `or` shart yordamchi so'zi
+### `or` shart yordamchi so'zi
 
 ```python
 condition1 = True
@@ -226,7 +226,7 @@ print(age == 28 or name.title() == 'Akbar')
 # False
 ```
 
-#### Shartlarni qavslar bilan yozish
+### Shartlarni qavslar bilan yozish
 
 ```python
 age = 27

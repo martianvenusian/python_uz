@@ -1,4 +1,4 @@
-## Boolean turlar
+# Boolean turlar
 
 `True` va `False` (rost va yolg'on) turlar
 
