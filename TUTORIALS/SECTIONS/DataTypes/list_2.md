@@ -1,4 +1,4 @@
-### `for` takrorlovchi opertor yordamida listning elementlarini chop qilish
+### `for` takrorlovchi operatori yordamida listning elementlari ustida ishlash
 
 Aytaylik sizda ismlarni o'zida saqlovchi list mavjud. Va siz bu listning har bir elementini chop qilmoqchisiz. Bu ishni **_for_** takrorlovchi operatori yordamida amalga oshirsangiz bo'ladi.
 
@@ -155,7 +155,7 @@ print(names)
 # [5, 5, 10, 8]
 ```
 
-Sonlardan iborat bo'lgan listning har bir elementining o'rniga uning 2chi darajaga oshirilgan qiymqtini yozmoqchi bo'lsangiz uni quydagichi qilishingiz mumkin.
+Sonlardan iborat bo'lgan listning har bir elementining o'rniga uning 2chi darajaga oshirilgan qiymatini yozmoqchi bo'lsangiz uni quydagichi qilishingiz mumkin.
 
 ```python
 numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
