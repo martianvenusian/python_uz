@@ -1,8 +1,14 @@
-### `#1:` [List](./TUTORIALS/SECTIONS/DataTypes/list.html)
+## DataTypes
 
-### `#2:` [Boolean](./tutorial_2.html)
+### **#1:** List
 
-### `#3:` [Shart ifodalari](./tutorial_3.html)
+#### [List#1](./TUTORIALS/SECTIONS/DataTypes/list_1.html)
+
+#### [List#2](./TUTORIALS/SECTIONS/DataTypes/list_2.html)
+
+### **#3:** [Boolean](./tutorial_2.html)
+
+### **#4:** [Shart ifodalari](./tutorial_3.html)
 
 <!-- ## Kitoblar tarjimasi
 
