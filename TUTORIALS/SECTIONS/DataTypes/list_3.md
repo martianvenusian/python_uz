@@ -1,4 +1,4 @@
-### `min`, `max` va `sum` funksiyalari va list
+### `min()`, `max()` va `sum()` funksiyalari va list
 
 Sonlardan iborat bo'lgan listning eng kichik, eng katta, va sonlarining yig'indisini quyodagicha hisoblash mumkin:
 
