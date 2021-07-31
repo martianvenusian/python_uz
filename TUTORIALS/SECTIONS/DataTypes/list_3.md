@@ -1,6 +1,6 @@
 ### `min()`, `max()` va `sum()` funksiyalari va list
 
-Sonlardan iborat bo'lgan listning eng kichik, eng katta, va sonlarining yig'indisini quyodagicha hisoblash mumkin:
+Sonlardan iborat bo'lgan listning eng kichik, eng katta, va sonlarining yig'indisini quyidagicha hisoblash mumkin:
 
 ```python
 numbers = list(range(1, 10, 3))
@@ -29,7 +29,7 @@ print(max(names))
 # humoyiddin
 ```
 
-Lekin elementlarining turi string bo'lgan listning qiymatlari yig'indisini hisoblash xatolikni keltirib chiqarishi mumkin:
+Lekin elementlarining turi string bo'lgan listning elementlarining yig'indisini hisoblashda xatolikni kelib chiqishi mumkin:
 
 ```python
 names = ['akbar', 'humoyiddin', 'akrom']
