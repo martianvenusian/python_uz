@@ -1,4 +1,4 @@
-### `#1:` [List](.//Users/m/projects/python_uz/TUTORIALS/SECTIONS/DataTypes/list.html)
+### `#1:` [List](./TUTORIALS/SECTIONS/DataTypes/list.html)
 
 ### `#2:` [Boolean](./tutorial_2.html)
 
