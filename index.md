@@ -6,6 +6,8 @@
 
 #### [List 2](./TUTORIALS/SECTIONS/DataTypes/list_2.html)
 
+#### [List 2](./TUTORIALS/SECTIONS/DataTypes/list_3.html)
+
 ## **#3:** Boolean
 
 #### [Boolean](./tutorial_2.html)
