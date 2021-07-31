@@ -8,11 +8,11 @@
 
 #### [List 3: List va **_min()_**, **_max()_**, **_sum()_** funksiyalari](./TUTORIALS/SECTIONS/DataTypes/list_3.html)
 
-## **#3:** Boolean
+## **#2:** Boolean
 
 #### [Boolean](./tutorial_2.html)
 
-## **#4:** Shart ifodalari
+## **#3:** Shart ifodalari
 
 #### [Shart ifodalari](./tutorial_3.html)
 
