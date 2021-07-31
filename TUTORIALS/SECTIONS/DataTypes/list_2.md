@@ -106,6 +106,20 @@ for i in range(0, len(names)):
 # name 5 : elmurod
 ```
 
+Agar ismlar ro'yxatidagi har bir ismning harflar sonini hisoblab yangi ro'yxatda saqlomoqchi bo'lsangiz uni quydagicha qilishingiz mumkin.
+
+```python
+names = ['akbar', 'akrom', 'humoyiddin', 'dilmurod']
+number_of_characters = []
+for name in names:
+    number = len(name)
+    number_of_characters.append(number)
+print(names)
+# ['akbar', 'akrom', 'humoyiddin', 'dilmurod']
+print(number_of_characters)
+# [5, 5, 10, 8]
+```
+
 **_for_** operatori **_range()_** funksiyasi yordamida listning elementlarining qiymatini yangi boshqa qiymatga o'zgartirishingiz mumkin.
 
 ```python
@@ -126,6 +140,33 @@ for i in range(0, len(names)):
 
 print(names)
 # [0, 1, 2, 3]
+```
+
+Ismlar ro'yxatidagi har bir ismning o'rniga ismning harflar sonini qayta yozmoqchi bo'lsangiz uni quydagicha qilishingiz mumkin.
+
+```python
+names = ['akbar', 'akrom', 'humoyiddin', 'dilmurod']
+
+for i in range(0, len(names)):
+    number = len(names[i])
+    names[i] = number
+
+print(names)
+# [5, 5, 10, 8]
+```
+
+Sonlardan iborat bo'lgan listning har bir elementining o'rniga uning 2chi darajaga oshirilgan qiymqtini yozmoqchi bo'lsangiz uni quydagichi qilishingiz mumkin.
+
+```python
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+print(numbers)
+# [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+for i in range(0, len(numbers)):
+    square = numbers[i] ** 2
+    numbers[i] = square
+print(numbers)
+# [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
 ```
 
 ### `range()` funksiyasi yordamida list hosil qilish
