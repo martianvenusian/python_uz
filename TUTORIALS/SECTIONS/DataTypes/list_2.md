@@ -1,4 +1,6 @@
-### `sort` funksiyasi yordamida listni tartiblash
+### `.sort()` funksiyasi yordamida listni tartiblash
+
+`.sort()`
 
 ```python
 # numbers
@@ -41,4 +43,18 @@ mixed = ['akrom', 27, 80.0, 178.0]
 print(mixed)
 # mixed.sort()
 # TypeError: '<' not supported between instances of 'int' and 'str'
+```
+
+### `sorted()` funksiyasi yordamida listni tartiblash
+
+```python
+names = ['akrom', 'akbar', 'humoyiddin']
+
+sorted_names = sorted(names)
+
+print(names)
+# ['akrom', 'akbar', 'humoyiddin']
+
+print(sorted_names)
+# ['akbar', 'akrom', 'humoyiddin']
 ```
