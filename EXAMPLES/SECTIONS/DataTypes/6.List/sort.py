@@ -1,6 +1,3 @@
-### `sort` funksiyasi yordamida listni tartiblash
-
-```python
 # numbers
 ages = [27, 28, 18, 19]
 print(ages)
@@ -14,9 +11,7 @@ numbers = [27, 178.0, 80.0]
 numbers.sort()
 print(numbers)
 # [27, 80.0, 178.0]
-```
 
-```python
 # litters
 names = ['akbar', 'akrom', 'huoyiddin', 'dilmurod']
 print(names)
@@ -34,11 +29,8 @@ names.sort()
 print(names)
 # ['Kamzayev', 'Subxonberdiyes', 'akbar', 'akrom']
 
-```
 
-```python
 mixed = ['akrom', 27, 80.0, 178.0]
 print(mixed)
 # mixed.sort()
 # TypeError: '<' not supported between instances of 'int' and 'str'
-```
