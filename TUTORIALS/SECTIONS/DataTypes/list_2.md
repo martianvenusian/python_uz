@@ -1,7 +1,5 @@
 ### `.sort()` funksiyasi yordamida listni tartiblash
 
-`.sort()`
-
 ```python
 # numbers
 ages = [27, 28, 18, 19]
