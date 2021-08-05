@@ -28,7 +28,7 @@ names.sort()
 print(names)
 # ['akbar', 'akrom', 'dilmurod', 'huoyiddin']
 
-names = ['akbar', 'Subxonberdiyes', 'Kamzayev',  'akrom']
+names = ['akbar', 'Subxonberdiyev', 'Kamzayev',  'akrom']
 print(names)
 # ['akbar', 'Subxonberdiyes', 'Kamzayev', 'akrom']
 
