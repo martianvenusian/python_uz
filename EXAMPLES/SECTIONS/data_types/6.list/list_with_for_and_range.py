@@ -3,8 +3,16 @@ names = ['akbar', 'akrom', 'humoyiddin', 'dilmurod', 'elmurod']
 for name in names:
     print(name)
 
-# for i in range(1, 3):
-#     print(names[i])
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+for number in numbers:
+    print(number)
+
+for name in names:
+    print(name)
+
+for i in range(1, 3):
+    print(names[i])
 
 # # akrom
 # # humoyiddin
