@@ -24,3 +24,19 @@
 
 # for i in range(len(numbers)):
 #     print(numbers[i])
+
+# r = range(0, 11)
+
+# for number in r:
+#     print(number)
+
+# r = range(0, 11, 2)
+
+# for number in r:
+#     print(number)
+
+# r = range(0, 1000, 3) # 0, 3, 6, 9
+
+
+# for number in r:
+#     print(number)

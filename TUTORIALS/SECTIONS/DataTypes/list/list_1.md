@@ -1,5 +1,3 @@
-# List
-
 ### `.appent()` metodi yordamida listga element qo'shish
 
 Agar siz listga element qo'shmoqchi bo'lsangiz **.appent()** metodidan foydalanishingiz mumkin. Bu metod listning oxiridan boshlab element qo'shadi.
