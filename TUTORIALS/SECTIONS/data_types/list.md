@@ -2,6 +2,8 @@
 
 `List` bu Python tilining eng ajoyib ma'lumot tur(_data type_)laridan biri bo'lib o'zida turli ma'lumot turlariga mansub bo'lgan ko'plab ma'lumotlarni saqlaydi. Bu bo'limda **_list_** haqida bilim olasiz.
 
+### [List 1:](./list/list_1.html) List nima?
+
 ### [List 2:](./list/list_2.html) Listning .appent(), .insert(), .pop(), .remove() funksiyalari va del operatori
 
 ### [List 3:](./list/list_3.html) List va _sort()_ funksiyasi
