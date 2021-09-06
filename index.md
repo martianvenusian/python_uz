@@ -1,6 +1,6 @@
 # DataTypes
 
-## **#1:** [List 1:](./TUTORIALS/SECTIONS/data_types/list.html)
+## **#1:** [List](./TUTORIALS/SECTIONS/data_types/list.html)
 
 ## **#2:** Boolean
 
