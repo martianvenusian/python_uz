@@ -1,6 +1,20 @@
 # DataTypes
 
-## **#1:** [List](./TUTORIALS/SECTIONS/data_types/list.html)
+## **#1:** [Integer]
+
+## **#2:** [Float]
+
+## **#3:** [String]
+
+## **#4:** [Boolean]
+
+## **#5:** [List](./TUTORIALS/SECTIONS/data_types/list.html)
+
+## **#6:** [tuple]
+
+## **#7:** [set]
+
+## **#8:** [dictionary]
 
 <!-- ## **#2:** [Boolean](./tutorial_2.html)
 
