@@ -2,13 +2,9 @@
 
 ## **#1:** [List](./TUTORIALS/SECTIONS/data_types/list.html)
 
-## **#2:** Boolean
+## **#2:** [Boolean](./tutorial_2.html)
 
-#### [Boolean](./tutorial_2.html)
-
-## **#3:** Shart ifodalari
-
-#### [Shart ifodalari](./tutorial_3.html)
+## **#3:** [Shart ifodalari](./tutorial_3.html)
 
 <!-- ## Kitoblar tarjimasi
 
