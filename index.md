@@ -1,6 +1,6 @@
 # Variables (O'zgaruvchilar)
 
-## **0#:** [Variables] (./TUTORIALS/SECTIONS/variables/variables.html)
+## **0#:** [Variables](./TUTORIALS/SECTIONS/variables/variables.html)
 
 # DataTypes
 
