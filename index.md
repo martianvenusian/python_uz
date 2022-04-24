@@ -1,6 +1,6 @@
 # Variables (O'zgaruvchilar)
 
-## **0#:** [Variables]
+## **0#:** [Variables] (./TUTORIALS/SECTIONS/variables/variables.html)
 
 # DataTypes
 
@@ -14,11 +14,11 @@
 
 ## **#5:** [List](./TUTORIALS/SECTIONS/data_types/list.html)
 
-## **#6:** [tuple]
+## **#6:** [Tuple]
 
-## **#7:** [set]
+## **#7:** [Set]
 
-## **#8:** [dictionary]
+## **#8:** [Dictionary]
 
 <!-- ## **#2:** [Boolean](./tutorial_2.html)
 
