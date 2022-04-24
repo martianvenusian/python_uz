@@ -83,7 +83,6 @@ age_* = 20
 
 ```python
 import = 'Akbar'  # mumkin emas
-def = 'Akbar' # mumkin emas
 pass = 'Akbar' # mumkin emas
 continue = 'Akbar' # mumkin emas
 break = 'Akbar' # mumkin emas
