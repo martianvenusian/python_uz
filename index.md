@@ -1,3 +1,7 @@
+# Variables (O'zgaruvchilar)
+
+## **0#:** [Variables]
+
 # DataTypes
 
 ## **#1:** [Integer]
